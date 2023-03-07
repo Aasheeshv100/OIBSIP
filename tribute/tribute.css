@@ -1,0 +1,80 @@
+/* Set the background color of the page */
+body {
+    background-color: #f7f7f7;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the title */
+h1 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+/* Style the subtitle */
+h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Style the main content area */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Style the image */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+    margin: auto;
+}
+
+/* Style the paragraphs */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+/* Style the links */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Add a border to the subtitles */
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+/* Alternate the alignments of the content sections */
+section:nth-of-type(even) {
+    text-align: right;
+}
+
+/* Style the header and subtitles with a gradient */
+header, h2 {
+    background-image: linear-gradient(to bottom right, #333, #008080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Style the links on hover */
+a:hover {
+    color: #008080;
+}
